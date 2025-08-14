@@ -1,0 +1,487 @@
+Fantasy Team,Gender Match,Last Name,First Name,Fantasy Points,Goals,Assists,Throwing Yards,Receiving Yards,Blocks,Turns
+Combo-Owner-Draft,GM,Last,First,SUM of FantasyPts,SUM of Goals,SUM of Assists,SUM of ThrowYds,SUM of RecYds,SUM of Block,SUM of Turn
+AK AK-5-10,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Finney,Carolyn,21.5,2,3,253,241,1,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Mueller,Ava,10.6,3,1,169,25,1,1
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Freechild,Dylan,19.3,1,5,475,-3,2,3
+,M,Gallant,Marty,13.0,3,1,154,217,0,0
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+Anaximander SOAP-5-10,F,Forget,Zoë,5.6,2,0,45,111,0,0
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,F,Woloson,Verena,-1.9,0,0,-11,69,0,1
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Dieckmann,Jakob,11.0,6,2,156,367,0,3
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Freechild,Dylan,19.3,1,5,475,-3,2,3
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+Anthony GINET-4-12,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Gallant,Marty,13.0,3,1,154,217,0,0
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+,M,Mao,Quan,9.5,0,6,498,69,2,7
+,M,Matsuno,Masahiro,1.2,0,2,311,89,0,4
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Basket SOAP-5-10,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Jacobsohn,Sarah,-3.1,0,3,86,163,0,4
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Mao,Quan,9.5,0,6,498,69,2,7
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+Ben GINET-4-12,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Gao,Xiaoyun,-4.6,2,0,31,227,0,4
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Greenwald,Hartley,6.6,1,2,124,90,1,2
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Ben STURF-4-10,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Kimura,Lauren,16.5,0,2,188,41,2,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Ladomatos,Alex,4.3,0,2,204,103,0,2
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Benj EUCOMM-8-8,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Ospina,Laura,7.1,1,1,92,113,0,0
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Ruelle,Simon,1.5,1,2,68,118,0,2
+Charlie DEEP-4-10,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Jacobsohn,Sarah,-3.1,0,3,86,163,0,4
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Chris GINET-4-12,F,Blanc,Camille,6.4,0,0,14,52,2,1
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Mueller,Ava,10.6,3,1,169,25,1,1
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,F,Wedge,Molly,2.6,1,0,3,24,1,1
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+,M,Ruelle,Simon,1.5,1,2,68,118,0,2
+,M,Xu,Yingyi,3.7,4,2,24,301,0,3
+Daniel DEEP-4-10,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Greenwald,Hartley,6.6,1,2,124,90,1,2
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Roblet,Sullivan,3.0,2,2,87,70,1,3
+Daniel EESTI-6-8,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Finney,Carolyn,21.5,2,3,253,241,1,0
+,F,Li,Xue,-4.9,1,0,86,27,0,3
+,M,Bray,James,0.9,0,0,18,20,0,0
+,M,Cortes Amariles,Juan Manuel,1.8,0,0,15,67,0,0
+,M,Lindsley,Grant,20.7,2,6,283,206,0,0
+,M,Matsuno,Masahiro,1.2,0,2,311,89,0,4
+Devynn POD-5-8,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Gallant,Marty,13.0,3,1,154,217,0,0
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Ladomatos,Alex,4.3,0,2,204,103,0,2
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+Durbs EUCOMM-8-8,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Schütz,Lisa,10.3,0,2,150,88,2,2
+,F,Wedge,Molly,2.6,1,0,3,24,1,1
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Bulla,Jorge,11.3,0,5,222,81,1,2
+,M,Dieckmann,Jakob,11.0,6,2,156,367,0,3
+,M,Herkens,Paul,33.6,3,2,144,159,6,1
+Edward STURF-4-10,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Lindsley,Grant,20.7,2,6,283,206,0,0
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Ethan CROCS-8-8,F,Blanc,Camille,6.4,0,0,14,52,2,1
+,F,Pidgeon,Angela,10.4,3,1,19,91,1,0
+,F,Wedge,Molly,2.6,1,0,3,24,1,1
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Bulla,Jorge,11.3,0,5,222,81,1,2
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Lindsley,Grant,20.7,2,6,283,206,0,0
+,M,Lloyd,Mark,7.1,2,0,57,119,1,1
+Francis EUCOMM-8-8,F,Bornot,Lison,9.0,3,1,45,278,1,2
+,F,Carr,Olivia,1.2,3,0,0,58,0,1
+,F,Kimura,Lauren,16.5,0,2,188,41,2,0
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Lloyd,Mark,7.1,2,0,57,119,1,1
+,M,Matsuno,Masahiro,1.2,0,2,311,89,0,4
+,M,Roblet,Sullivan,3.0,2,2,87,70,1,3
+Gert EESTI-6-8,F,Bornot,Lison,9.0,3,1,45,278,1,2
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,Benvegnen,Paul,32.6,2,8,569,172,2,2
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Ramirez,Andrés,15.7,5,2,52,154,1,0
+Guy GUY-4-10,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Roblet,Sullivan,3.0,2,2,87,70,1,3
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Hannah EUCOMM-8-8,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Jacobsohn,Sarah,-3.1,0,3,86,163,0,4
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Freechild,Dylan,19.3,1,5,475,-3,2,3
+,M,Lindsley,Grant,20.7,2,6,283,206,0,0
+Helen EESTI-6-8,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Meehan,Lyra,1.7,0,1,15,9,0,0
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,F,Zhang,Ying,0.8,0,0,68,-65,0,0
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Ian GUY-4-10,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,F,Wedge,Molly,2.6,1,0,3,24,1,1
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Benvegnen,Paul,32.6,2,8,569,172,2,2
+,M,Gallant,Marty,13.0,3,1,154,217,0,0
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Isaac CROCS-8-8,F,Egan-Griffiths,Georgia,2.7,1,0,32,36,0,0
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Montaña,Ximena,9.1,3,0,-1,106,1,0
+,F,Wei,Simei,-0.8,0,3,175,144,0,4
+,M,Freechild,Dylan,19.3,1,5,475,-3,2,3
+,M,Kurono,Masashi,19.9,5,5,201,592,1,4
+,M,Liu,Bo,3.1,3,1,287,119,0,4
+,M,Matsuno,Masahiro,1.2,0,2,311,89,0,4
+Jakob EESTI-6-8,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Latchy,Tifaine,10.3,0,2,105,54,1,0
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+James CROCS-8-8,F,Bornot,Lison,9.0,3,1,45,278,1,2
+,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Schall,Charlotte,15.2,2,2,229,165,1,1
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Ladomatos,Alex,4.3,0,2,204,103,0,2
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Josh AK-5-10,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Josh STURF-4-10,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Bornot,Lison,9.0,3,1,45,278,1,2
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Ospina,Laura,7.1,1,1,92,113,0,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+Katelyn CROCS-8-8,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Ollivier,Chloé,3.5,2,0,-18,101,0,0
+,F,Ospina,Laura,7.1,1,1,92,113,0,0
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Herkens,Paul,33.6,3,2,144,159,6,1
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Keegs AK-5-10,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Jacobsohn,Sarah,-3.1,0,3,86,163,0,4
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Benvegnen,Paul,32.6,2,8,569,172,2,2
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Keegs GUY-4-10,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Dieckmann,Jakob,11.0,6,2,156,367,0,3
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+Keith DEEP-4-10,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Ramirez,Andrés,15.7,5,2,52,154,1,0
+Keith GINET-4-12,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,F,Zhang,Ying,0.8,0,0,68,-65,0,0
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Freechild,Dylan,19.3,1,5,475,-3,2,3
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Ramírez,Simón,-2.1,0,0,19,17,0,1
+Keith POD-5-8,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Kimura,Lauren,16.5,0,2,188,41,2,0
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Keith SOAP-5-10,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Keith STURF-4-10,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+Kristjan EESTI-6-8,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Auger-Semmar,Malik,17.4,4,3,174,257,0,0
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Liam AK-5-10,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Forero,Maria,3.7,1,1,15,62,0,0
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+Liam EUCOMM-8-8,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Ollivier,Chloé,3.5,2,0,-18,101,0,0
+,F,Santos,Maria Paula,6.8,2,1,56,107,0,0
+,F,Wiya,Kya,6.2,4,2,41,250,0,2
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Benvegnen,Paul,32.6,2,8,569,172,2,2
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+Matty POD-5-8,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Mao,Quan,9.5,0,6,498,69,2,7
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Mikey POD-5-8,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Bulla,Jorge,11.3,0,5,222,81,1,2
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+Owen CROCS-8-8,F,Forget,Zoë,5.6,2,0,45,111,0,0
+,F,Jacobsohn,Sarah,-3.1,0,3,86,163,0,4
+,F,Kimura,Lauren,16.5,0,2,188,41,2,0
+,F,Miyachi,Hikari,0.0,0,0,0,0,0,0
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+Quinn POD-5-8,F,Blanc,Camille,6.4,0,0,14,52,2,1
+,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Ospina,Laura,7.1,1,1,92,113,0,0
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+,M,Lindsley,Grant,20.7,2,6,283,206,0,0
+Riin EESTI-6-8,F,Mueller,Ava,10.6,3,1,169,25,1,1
+,F,Takada,Mayuka,13.0,3,3,240,436,0,3
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Greenwald,Hartley,6.6,1,2,124,90,1,2
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Keys,Jonathan,12.6,2,7,387,196,0,4
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Ryan CROCS-8-8,F,Carr,Olivia,1.2,3,0,0,58,0,1
+,F,Chastain,Claire,0.5,0,1,89,90,1,3
+,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Bryson,Malcolm,11.9,0,2,95,98,2,1
+,M,Gallant,Marty,13.0,3,1,154,217,0,0
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+,M,Suzuki,Ryota,8.9,1,2,515,-33,0,3
+Sam GUY-4-10,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Ospina,Laura,7.1,1,1,92,113,0,0
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Ing,Henry,15.0,4,3,110,386,0,1
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+Sean EUCOMM-8-8,F,Kashino,Yuko,19.5,2,6,239,213,0,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Mueller,Ava,10.6,3,1,169,25,1,1
+,F,Prien,Nici,7.6,2,2,27,239,1,2
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,McGuckin,Sam,10.3,4,3,110,301,0,2
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+Smurph EUCOMM-8-8,F,Blanc,Camille,6.4,0,0,14,52,2,1
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Montaña,Ximena,9.1,3,0,-1,106,1,0
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Muraoka,Akifumi,12.1,1,1,167,48,1,0
+,M,Schloer,Conrad,43.0,4,11,332,447,3,1
+,M,Stanguennec,Léo,21.8,0,5,248,215,2,1
+Soap SOAP-5-10,F,Beaudry,Anouchka,6.9,3,2,51,172,0,1
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Culton,Dawn,9.2,3,1,73,151,0,0
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Andrews,Rob,24.8,3,4,266,337,3,3
+,M,Brownlee,Marques,8.8,3,2,359,43,1,4
+,M,Muraoka,Akifumi,12.1,1,1,167,48,1,0
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+,M,Ramirez,Andrés,15.7,5,2,52,154,1,0
+Stef EUCOMM-8-8,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Finney,Carolyn,21.5,2,3,253,241,1,0
+,F,Phillips,Cat,21.9,1,4,240,379,2,2
+,F,Walczak,Levke,6.4,10,1,86,489,1,7
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+,M,Ladomatos,Alex,4.3,0,2,204,103,0,2
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+,M,Snider,Quinn,16.2,5,1,52,331,2,2
+Subs DEEP-4-10,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Helton,Kaela,14.6,2,2,107,169,1,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Mao,Quan,9.5,0,6,498,69,2,7
+,M,Müller,Nico,24.2,1,7,565,106,0,1
+,M,Okajima,Sho,3.9,3,4,162,198,0,4
+Thomas CROCS-8-8,F,Cárdenas,Valeria,5.7,3,0,213,258,0,3
+,F,Mueller,Ava,10.6,3,1,169,25,1,1
+,M,Ancelin,Gaël,-7.4,1,0,232,-21,0,5
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Edmonds,Thomas,26.5,4,3,451,238,1,1
+,M,Foreman,Bill,12.1,2,1,190,113,1,1
+,M,Metzger,David,20.8,4,4,387,104,2,3
+,M,Poitte-Sokolsky,Sacha,4.2,4,0,254,77,0,3
+TJL SOAP-5-10,F,Blanc,Camille,6.4,0,0,14,52,2,1
+,F,Finney,Carolyn,21.5,2,3,253,241,1,0
+,F,Kurahashi,Mika,6.9,0,1,95,99,1,1
+,F,Schütz,Lisa,10.3,0,2,150,88,2,2
+,F,Thompson,Anna,23.9,2,5,225,254,2,1
+,M,Arakawa,Taiyo,19.2,9,0,-37,367,1,0
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Bryson,Malcolm,11.9,0,2,95,98,2,1
+,M,Ing,Michael,30.8,5,3,256,202,5,3
+,M,Kocher,Chris,19.5,1,3,316,94,1,0
+Travis CROCS-8-8,F,Cárdenas,Manuela,8.4,1,2,222,87,0,1
+,F,Cartagena,Yina,12.0,1,3,218,219,0,1
+,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Finney,Carolyn,21.5,2,3,253,241,1,0
+,F,Groom,Kami,9.9,3,2,22,210,0,0
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Cantor,Jonathan,1.2,0,1,26,-29,0,0
+,M,Dieckmann,Jakob,11.0,6,2,156,367,0,3
+Zach AK-5-10,F,Dos Santos,Brittney,9.3,2,4,282,192,0,3
+,F,Imanishi,Kanari,7.5,1,0,110,110,1,1
+,F,Kimura,Lauren,16.5,0,2,188,41,2,0
+,F,Trop,Claire,14.2,7,0,38,252,1,1
+,F,Vallet,Chloé,0.8,0,2,77,125,0,2
+,M,Bonnet,Elliot,18.4,5,2,151,439,1,2
+,M,Dieckmann,Jakob,11.0,6,2,156,367,0,3
+,M,Gan,Alex,-8.9,1,0,293,111,0,7
+,M,Greenwald,Hartley,6.6,1,2,124,90,1,2
+,M,Hayes,Raphy,12.9,4,3,129,450,2,5
+Grand Total,,,,5924.3,1258,1181,85270,95563,416,891
