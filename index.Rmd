@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "World Games 2025 Ultimate Fantasy Value Graph"
 ---
 
 
@@ -18,8 +18,13 @@ library(plotly)
 player_reference <- import(here("ALL TEAMS ALL DRAFTS World Games 2025 Fantasy League Tracker - Player List.csv")) %>% 
   rename(TeamName=`Name+Team`) %>% 
   mutate(text = paste(
-    First,Last,
-    "\nTeam :",Team))
+    First,Last, Team,
+    "\nGoals :",Goals,
+    "\nAssists :",Assists,
+    "\nBlocks :",Block,
+    "\nThrowing Yards :",ThrowYds,
+    "\nReceiving Yards :",RecYds,
+    "\nTurns :",Turn))
 
 
 draft_reference <- import(here("ALL TEAMS ALL DRAFTS World Games 2025 Fantasy League Tracker - Copy of Player List.csv"))
@@ -48,7 +53,8 @@ pick_efficiency_graph<-player_reference %>%
   theme_minimal()
 
 
-ggplotly(pick_efficiency_graph,tooltip="text")
+ggplotly(pick_efficiency_graph,tooltip="text") %>% 
+  toWebGL()
 
 
 ```
