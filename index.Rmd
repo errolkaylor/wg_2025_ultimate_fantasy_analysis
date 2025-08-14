@@ -4,7 +4,7 @@ title: "R Notebook"
 
 
 
-```{r}
+```{r include=FALSE}
 library(rio)
 library(tidyverse)
 library(janitor)
@@ -14,7 +14,7 @@ library(plotly)
 
 ```
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 player_reference <- import(here("ALL TEAMS ALL DRAFTS World Games 2025 Fantasy League Tracker - Player List.csv")) %>% 
   rename(TeamName=`Name+Team`) %>% 
   mutate(text = paste(
@@ -42,13 +42,12 @@ player_reference<- player_reference %>%
 ?ggplot
 pick_efficiency_graph<-player_reference %>% 
   ggplot(aes(x=times_picked,y=FantasyPts,text=text,colour=Team,shape=GM)) +
-  geom_point(position="jitter",size=5)+
-  labs(title = "2025 World Games Player Performance by Draft Picks",
+  geom_point(position="jitter",size=3)+
+  labs(title = "2025 WG Ultimate Fantasy Performance",
        subtitle = "Triangles are MMP, Circles are WMP")+
   theme_minimal()
 
 
-pick_efficiency_graph
 ggplotly(pick_efficiency_graph,tooltip="text")
 
 
