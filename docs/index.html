@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>R Notebook</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">R Notebook</h1>
+
+</div>
+
+
+<div class="plotly html-widget html-fill-item" id="htmlwidget-7fc9e8c7dc5d13a4f9fe" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-7fc9e8c7dc5d13a4f9fe">{"x":{"data":[{"x":[2.3896822383627296,1.0664438428357244,9.6036959223449223,1.3988967100158334,0.36592541858553884,8.3127888079732664,0.91771257836371656],"y":[1.1621903385221966,1.716794881522655,21.9078018508479,10.434235334675758,4.48050513708964,6.2340679984167213,2.7231843994185327],"text":["Olivia Carr <br />Team : AUS","Lyra Meehan <br />Team : AUS","Cat Phillips <br />Team : AUS","Angela Pidgeon <br />Team : AUS","Alexandra Prentice <br />Team : AUS","Kya Wiya <br />Team : AUS","Georgia Egan-Griffiths <br />Team : AUS"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(248,118,109,1)"}},"hoveron":"points","name":"(AUS,F)","legendgroup":"(AUS,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[9.8754017759114507,0.80894987564533949,1.1806248236447572,9.6898883098736412,0.86816902998834844,4.3581973033025863,10.100500345043837],"y":[24.763556634578855,0.86408542692661361,12.093622694369405,-8.8860055522993218,12.629852787982671,4.3379351683892295,10.316015910562129],"text":["Rob Andrews <br />Team : AUS","James Bray <br />Team : AUS","Bill Foreman <br />Team : AUS","Alex Gan <br />Team : AUS","Jonathan Keys <br />Team : AUS","Alex Ladomatos <br />Team : AUS","Sam McGuckin <br />Team : AUS"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(248,118,109,1)"}},"hoveron":"points","name":"(AUS,M)","legendgroup":"(AUS,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[9.0555284585803744,-0.39112542532384398,10.111564465239644,5.276201483979821,5.3267475375905633,9.7772371632978317,4.2115139624103906],"y":[6.9212091067619621,5.679733238685877,9.2799256173335021,-3.0628288836777218,16.504725170694293,6.9070489409379663,2.6397565786354238],"text":["Anouchka Beaudry <br />Team : CAN","Florence Dionne <br />Team : CAN","Brittney Dos Santos <br />Team : CAN","Sarah Jacobsohn <br />Team : CAN","Lauren Kimura <br />Team : CAN","Mika Kurahashi <br />Team : CAN","Molly Wedge <br />Team : CAN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(205,150,0,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(205,150,0,1)"}},"hoveron":"points","name":"(CAN,F)","legendgroup":"(CAN,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[8.9275866048410535,1.6491357339546084,10.178167039901018,5.0499065048992637,2.3290786778554322,-0.28630360309034586,8.0636108687147505],"y":[17.41197835627943,11.902353741936386,26.483972853589805,13.009547253008932,7.104977675657719,15.380181479081513,16.162155776582658],"text":["Malik Auger-Semmar <br />Team : CAN","Malcolm Bryson <br />Team : CAN","Thomas Edmonds <br />Team : CAN","Marty Gallant <br />Team : CAN","Mark Lloyd <br />Team : CAN","Gagan Chatha <br />Team : CAN","Quinn Snider <br />Team : CAN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(205,150,0,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(205,150,0,1)"}},"hoveron":"points","name":"(CAN,M)","legendgroup":"(CAN,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1.2213752215728164,1.3381090236827733,-0.37538453582674269,0.66174960844218722,0.11062370799481869,1.6361043667420745,0.077389264293015014],"y":[-4.5681488172709948,-4.8969273197092118,-0.60481151772662989,-0.81775357794016568,1.2395429654233148,0.81597310148179503,0.50540311781689518],"text":["Xiaoyun Gao <br />Team : CHN","Xue Li <br />Team : CHN","Xuanxuan Wang <br />Team : CHN","Simei Wei <br />Team : CHN","Lu Zhang <br />Team : CHN","Ying Zhang <br />Team : CHN","Anqi Zhou <br />Team : CHN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(124,174,0,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(124,174,0,1)"}},"hoveron":"points","name":"(CHN,F)","legendgroup":"(CHN,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[0.074886991642415524,0.23428778871893885,0.63523347787559037,4.256684884428978,1.1508576314896346,-0.37818657979369164,0.018954634852707375],"y":[26.523725987821816,9.4174533808790155,3.0660959345847378,9.5070763932913547,3.6826503495313232,15.4061792139709,2.418368604034185],"text":["Jiarong Guo <br />Team : CHN","Xin Li <br />Team : CHN","Bo Liu <br />Team : CHN","Quan Mao <br />Team : CHN","Yingyi Xu <br />Team : CHN","Yu Zeng <br />Team : CHN","Zhaoje Zhou <br />Team : CHN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(124,174,0,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(124,174,0,1)"}},"hoveron":"points","name":"(CHN,M)","legendgroup":"(CHN,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[9.8037856759503477,10.062928112223744,10.270750999264418,0.657677854783833,2.2757773503661154,4.8151550654321911,5.927700913138688],"y":[8.3991366684995601,5.6708485512621705,12.000460816863924,3.7003519969061021,9.1045007972978045,7.119949259683489,6.7613779681921011],"text":["Manuela Cárdenas <br />Team : COL","Valeria Cárdenas <br />Team : COL","Yina Cartagena <br />Team : COL","Maria Forero <br />Team : COL","Ximena Montaña <br />Team : COL","Laura Ospina <br />Team : COL","Maria Paula Santos <br />Team : COL"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,190,103,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,190,103,1)"}},"hoveron":"points","name":"(COL,F)","legendgroup":"(COL,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[0.17055441234260793,3.329947273246944,0.37372150514274838,6.6380528019741174,1.1573366213589906,2.819815801642835,1.1409604504704476],"y":[9.8915480948612107,11.324373499564826,6.9979289730265739,1.2026084136217832,1.8217639295198018,15.73383564442396,-2.1038907029293479],"text":["Ivan Alba <br />Team : COL","Jorge Bulla <br />Team : COL","Manuel Candamil <br />Team : COL","Jonathan Cantor <br />Team : COL","Juan Manuel Cortes Amariles <br />Team : COL","Andrés Ramirez <br />Team : COL","Simón Ramírez <br />Team : COL"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,190,103,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(0,190,103,1)"}},"hoveron":"points","name":"(COL,M)","legendgroup":"(COL,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[5.0925076747313138,0.1077890338376164,4.0604533286765214,1.7621185055002571,1.0480327321216465,1.7668231321498751,5.6014174185693264],"y":[6.3653386309556677,-0.48192377028986849,8.9762940509058549,5.5668245019763711,10.265895802769812,3.5399987021461121,0.82634473402053066],"text":["Camille Blanc <br />Team : FRA","Simone Raulet <br />Team : FRA","Lison Bornot <br />Team : FRA","Zoë Forget <br />Team : FRA","Tifaine Latchy <br />Team : FRA","Chloé Ollivier <br />Team : FRA","Chloé Vallet <br />Team : FRA"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,191,196,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,191,196,1)"}},"hoveron":"points","name":"(FRA,F)","legendgroup":"(FRA,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[9.0084537589922551,4.2484257631003857,9.9704277016222473,6.0086464645341042,3.1962664917111399,2.0257046170532704,5.8673346841707827],"y":[-7.4379636131227009,32.615244273860007,18.364279957041145,4.2136884896457198,3.0169309831410644,1.4854205088689927,21.832443013042212],"text":["Gaël Ancelin <br />Team : FRA","Paul Benvegnen <br />Team : FRA","Elliot Bonnet <br />Team : FRA","Sacha Poitte-Sokolsky <br />Team : FRA","Sullivan Roblet <br />Team : FRA","Simon Ruelle <br />Team : FRA","Léo Stanguennec <br />Team : FRA"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,191,196,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(0,191,196,1)"}},"hoveron":"points","name":"(FRA,M)","legendgroup":"(FRA,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[0.047391532547771953,5.2893008872866627,7.317343698628247,5.8092068934813144,1.7651459457352758,9.9413011083379388,0.90044684186577795],"y":[0.81681697132065856,10.604504113346337,7.6211366101540614,15.185691793300212,10.31605302810669,6.3731139104627079,-1.8659979235939688],"text":["Joana Erdmann <br />Team : GER","Ava Mueller <br />Team : GER","Nici Prien <br />Team : GER","Charlotte Schall <br />Team : GER","Lisa Schütz <br />Team : GER","Levke Walczak <br />Team : GER","Verena Woloson <br />Team : GER"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,169,255,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,169,255,1)"}},"hoveron":"points","name":"(GER,F)","legendgroup":"(GER,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[5.265254974737763,3.7461882146075367,1.78321998603642,0.65392261780798433,9.6200497752055529,9.7745257772505276,0.010734024085104488],"y":[10.990869548562914,6.5639158235117794,33.613328408431265,20.801561115775257,24.233692183345553,42.992427716832609,5.8088122105412179],"text":["Jakob Dieckmann <br />Team : GER","Hartley Greenwald <br />Team : GER","Paul Herkens <br />Team : GER","David Metzger <br />Team : GER","Nico Müller <br />Team : GER","Conrad Schloer <br />Team : GER","Nis-Julius Sontag <br />Team : GER"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,169,255,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(0,169,255,1)"}},"hoveron":"points","name":"(GER,M)","legendgroup":"(GER,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[6.9659140795469288,7.7155780771747233,1.1223203303292393,0.34908454231917863,0.24565364439040427,0.74485172778367992,-0.30660873837769032],"y":[7.473835551552475,19.47163624284789,0.027544386032968174,9.0920954319275911,1.623587844315916,12.998009111825377,3.9700412533618517],"text":["Kanari Imanishi <br />Team : JPN","Yuko Kashino <br />Team : JPN","Hikari Miyachi <br />Team : JPN","Riyu Shimizu <br />Team : JPN","Miwa Tajima <br />Team : JPN","Mayuka Takada <br />Team : JPN","Sayako Nemoto <br />Team : JPN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(199,124,255,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(199,124,255,1)"}},"hoveron":"points","name":"(JPN,F)","legendgroup":"(JPN,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[10.327342633903026,0.94337137937545779,0.36782685853540897,3.8402669103816152,1.7213811788707971,6.8866070466116067,0.62668054904788728],"y":[19.215781812351196,19.934149662610142,21.005722445398568,1.170338313374669,12.062286699507386,3.9066822663135823,8.8716243369318555],"text":["Taiyo Arakawa <br />Team : JPN","Masashi Kurono <br />Team : JPN","Shumpei Makiyama <br />Team : JPN","Masahiro Matsuno <br />Team : JPN","Akifumi Muraoka <br />Team : JPN","Sho Okajima <br />Team : JPN","Ryota Suzuki <br />Team : JPN"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(199,124,255,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(199,124,255,1)"}},"hoveron":"points","name":"(JPN,M)","legendgroup":"(JPN,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[6.2958989720791578,7.2751049291342493,4.9581764779984949,9.8895357141271241,8.99218990020454,9.8131827497854829,9.7887786168605082],"y":[0.46592530209571198,9.1935063855536274,21.532847055811434,9.9021509624831374,14.584467879533769,23.86652180723846,14.217518842369318],"text":["Claire Chastain <br />Team : USA","Dawn Culton <br />Team : USA","Carolyn Finney <br />Team : USA","Kami Groom <br />Team : USA","Kaela Helton <br />Team : USA","Anna Thompson <br />Team : USA","Claire Trop <br />Team : USA"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,97,204,1)","opacity":1,"size":11.338582677165356,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(255,97,204,1)"}},"hoveron":"points","name":"(USA,F)","legendgroup":"(USA,F)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[7.0498956881463526,4.9730749154463414,9.944931009225547,8.8905888587236408,9.957422279193997,7.1084862653166052,5.0867601770907642],"y":[8.7790348272770657,19.324030273128301,12.86838010299951,15.001120523717255,30.782053347565235,19.52263837080449,20.688075750768185],"text":["Marques Brownlee <br />Team : USA","Dylan Freechild <br />Team : USA","Raphy Hayes <br />Team : USA","Henry Ing <br />Team : USA","Michael Ing <br />Team : USA","Chris Kocher <br />Team : USA","Grant Lindsley <br />Team : USA"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,97,204,1)","opacity":1,"size":11.338582677165356,"symbol":"triangle-up","line":{"width":1.8897637795275593,"color":"rgba(255,97,204,1)"}},"hoveron":"points","name":"(USA,M)","legendgroup":"(USA,M)","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.762557077625573,"r":7.3059360730593621,"b":40.182648401826491,"l":43.105022831050235},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"2025 WG Ultimate Fantasy Performance","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.92704882828518753,10.863266036864369],"tickmode":"array","ticktext":["0.0","2.5","5.0","7.5","10.0"],"tickvals":[1.1102230246251565e-16,2.5,5,7.5,10],"categoryorder":"array","categoryarray":["0.0","2.5","5.0","7.5","10.0"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"times_picked","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-11.479927215755918,45.586349380289207],"tickmode":"array","ticktext":["-10","0","10","20","30","40"],"tickvals":[-10,0,10,20.000000000000004,30.000000000000004,40],"categoryorder":"array","categoryarray":["-10","0","10","20","30","40"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"FantasyPts","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498},"title":{"text":"GM<br />Team","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"2ee033747989":{"x":{},"y":{},"text":{},"colour":{},"shape":{},"type":"scatter"}},"cur_data":"2ee033747989","visdat":{"2ee033747989":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
