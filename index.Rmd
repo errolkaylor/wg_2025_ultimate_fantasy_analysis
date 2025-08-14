@@ -1,9 +1,56 @@
 ---
-title: "My Website"
+title: "R Notebook"
 ---
 
-Hello, Website!
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+```{r}
+library(rio)
+library(tidyverse)
+library(janitor)
+library(here)
+library(ggplot2)
+library(plotly)
+
+```
+
+```{r}
+player_reference <- import(here("ALL TEAMS ALL DRAFTS World Games 2025 Fantasy League Tracker - Player List.csv")) %>% 
+  rename(TeamName=`Name+Team`) %>% 
+  mutate(text = paste(
+    First,Last,
+    "\nTeam :",Team))
+
+
+draft_reference <- import(here("ALL TEAMS ALL DRAFTS World Games 2025 Fantasy League Tracker - Copy of Player List.csv"))
+
+player_picks <- draft_reference %>% 
+  group_by(TeamName) %>% 
+  filter(Owner!="") %>% 
+  summarise(times_picked = n())
+
+
+
+
+player_reference<-left_join(player_reference,player_picks) 
+
+player_reference$times_picked<- replace_na(player_reference$times_picked,0) 
+
+player_reference<- player_reference %>% 
+  mutate(times_not_picked = 10-times_picked)
+  
+?ggplot
+pick_efficiency_graph<-player_reference %>% 
+  ggplot(aes(x=times_picked,y=FantasyPts,text=text,colour=Team,shape=GM)) +
+  geom_point(position="jitter",size=5)+
+  labs(title = "2025 World Games Player Performance by Draft Picks",
+       subtitle = "Triangles are MMP, Circles are WMP")+
+  theme_minimal()
+
+
+pick_efficiency_graph
+ggplotly(pick_efficiency_graph,tooltip="text")
+
+
+```
+
